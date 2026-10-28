@@ -329,22 +329,58 @@
 <section id="gallery" class="section">
   <div class="wrap">
     <p class="eyebrow dark">Recent work</p>
-    <div class="rev-head">
-      <h2>Recent decorating projects</h2>
-      <div class="rev-nav">
-        <button type="button" class="rev-btn" data-target="gallery-track" data-dir="-1" aria-label="Previous photos" aria-controls="gallery-track">&#8592;</button>
-        <button type="button" class="rev-btn" data-target="gallery-track" data-dir="1" aria-label="Next photos" aria-controls="gallery-track">&#8594;</button>
-      </div>
+    <h2>Recent decorating projects</h2>
+    <p class="section-intro">A few of Steven's recent hallway and staircase jobs. Open the full gallery to see all 23 photos, including before and after shots and work in progress.</p>
+    <div class="feature-grid">
+      <a class="ph" href="img/work-hallway-stained-glass-front-door-after.jpg" data-w="900" data-h="1200"><img src="img/work-hallway-stained-glass-front-door-after-sm.jpg" alt="Hallway after decorating, with white walls, a white-painted staircase and the original stained-glass front door" width="450" height="600" loading="lazy" decoding="async"></a>
+      <a class="ph" href="img/work-staircase-white-spindles-oak-handrail-after.jpg" data-w="900" data-h="1200"><img src="img/work-staircase-white-spindles-oak-handrail-after-sm.jpg" alt="Staircase after decorating, with white spindles and newel posts and a varnished oak handrail" width="450" height="600" loading="lazy" decoding="async"></a>
+      <a class="ph" href="img/work-entrance-hall-tiled-floor-after.jpg" data-w="900" data-h="1200"><img src="img/work-entrance-hall-tiled-floor-after-sm.jpg" alt="Entrance hall with freshly painted walls, skirting and door frame above a red and black tiled floor" width="450" height="600" loading="lazy" decoding="async"></a>
     </div>
-    <div class="gallery" id="gallery-track" tabindex="0" role="region" aria-label="Photos of Steven's work, scroll sideways for more">
-      <img src="img/gallery-staircase-hallway.jpg" alt="Staircase and hallway painted white with a varnished handrail, Tunbridge Wells area" width="720" height="960" loading="lazy" decoding="async">
-      <img src="img/gallery-stairs-landing.jpg" alt="View down a freshly painted staircase with white spindles to the front door" width="720" height="960" loading="lazy" decoding="async">
-      <img src="img/gallery-staircase-cupboard.jpg" alt="Staircase and under-stairs cupboard painted in white" width="720" height="960" loading="lazy" decoding="async">
-      <img src="img/gallery-entrance-hall.jpg" alt="Entrance hall with painted walls and woodwork above a tiled floor" width="720" height="960" loading="lazy" decoding="async">
-      <img src="img/gallery-stairwell.jpg" alt="Stairwell and landing redecorated in white" width="720" height="960" loading="lazy" decoding="async">
-      <img src="img/gallery-handrail-stairs.jpg" alt="Carpeted stairs with a newly painted wall-mounted handrail" width="720" height="960" loading="lazy" decoding="async">
-      <img src="img/gallery-stairs-landing-window.jpg" alt="Hall, stairs and landing painted white with fresh gloss on the banisters" width="720" height="960" loading="lazy" decoding="async">
-      <img src="img/gallery-bedroom-feature-wall.jpg" alt="Bedroom repainted with a blue feature wall" width="720" height="960" loading="lazy" decoding="async">
+    <div class="gallery-toggle">
+      <button type="button" class="btn btn-ghost-dark" id="gallery-btn" aria-expanded="false" aria-controls="gallery-all">View full gallery (all 23 photos)</button>
+    </div>
+    <div class="photo-grid" id="gallery-all" hidden>
+      <div class="g-group">
+        <h3>Before and after: hallway and staircase</h3>
+        <p class="g-note">The same hallway, staircase and under-stairs cupboard, from bare pine to a finished white and oak look.</p>
+        <div class="pairs">
+        <figure class="pair"><div class="pair-imgs"><a class="ph" href="img/work-hallway-front-door-before.jpg" data-w="900" data-h="1200"><img src="img/work-hallway-front-door-before-sm.jpg" alt="Before: hallway with an unpainted pine staircase beside the stained-glass front door" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-before">Before</span></a><a class="ph" href="img/work-hallway-stained-glass-front-door-after.jpg" data-w="900" data-h="1200"><img src="img/work-hallway-stained-glass-front-door-after-sm.jpg" alt="Hallway after decorating, with white walls, a white-painted staircase and the original stained-glass front door" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-after">After</span></a></div><figcaption>Front door and hallway</figcaption></figure>
+        <figure class="pair"><div class="pair-imgs"><a class="ph" href="img/work-staircase-understairs-panels-before.jpg" data-w="900" data-h="1200"><img src="img/work-staircase-understairs-panels-before-sm.jpg" alt="Before: unpainted staircase spindles and under-stairs cupboard panels" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-before">Before</span></a><a class="ph" href="img/work-staircase-understairs-cupboard-after.jpg" data-w="900" data-h="1200"><img src="img/work-staircase-understairs-cupboard-after-sm.jpg" alt="Staircase and under-stairs cupboard panelling painted white" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-after">After</span></a></div><figcaption>Staircase and under-stairs cupboard</figcaption></figure>
+        <figure class="pair"><div class="pair-imgs"><a class="ph" href="img/work-stairs-bare-treads-before.jpg" data-w="900" data-h="1200"><img src="img/work-stairs-bare-treads-before-sm.jpg" alt="Before: view down bare wooden stairs from the landing" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-before">Before</span></a><a class="ph" href="img/work-stairs-view-to-front-door-after.jpg" data-w="900" data-h="1200"><img src="img/work-stairs-view-to-front-door-after-sm.jpg" alt="View down a freshly painted staircase with white spindles towards the front door" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-after">After</span></a></div><figcaption>Stairs from the landing</figcaption></figure>
+        </div>
+        <p class="g-sub">More from this job</p>
+        <div class="g-grid">
+          <a class="ph" href="img/work-hallway-staircase-before.jpg" data-w="900" data-h="1200"><img src="img/work-hallway-staircase-before-sm.jpg" alt="Before: hallway and staircase with bare pine spindles and unpainted under-stairs panelling" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-before">Before</span></a>
+          <a class="ph" href="img/work-staircase-bare-pine-before.jpg" data-w="900" data-h="1200"><img src="img/work-staircase-bare-pine-before-sm.jpg" alt="Before: bare pine staircase and under-stairs panels ready for painting" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-before">Before</span></a>
+          <a class="ph" href="img/work-staircase-white-spindles-oak-handrail-after.jpg" data-w="900" data-h="1200"><img src="img/work-staircase-white-spindles-oak-handrail-after-sm.jpg" alt="Staircase after decorating, with white spindles and newel posts and a varnished oak handrail" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-after">After</span></a>
+        </div>
+      </div>
+      <div class="g-group">
+        <h3>Finished work</h3>
+        <p class="g-note">Carpeted staircase and landing, entrance hall, hallway door, bedroom feature wall and exterior bay window.</p>
+        <div class="g-grid">
+          <a class="ph" href="img/work-staircase-newel-post-banister-after.jpg" data-w="900" data-h="1200"><img src="img/work-staircase-newel-post-banister-after-sm.jpg" alt="Carpeted staircase with a freshly painted white banister, spindles and round newel post" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-staircase-white-walls-carpet-after.jpg" data-w="900" data-h="1200"><img src="img/work-staircase-white-walls-carpet-after-sm.jpg" alt="Carpeted staircase between freshly painted white walls with a white skirting" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-stairs-wall-handrail-after.jpg" data-w="900" data-h="1200"><img src="img/work-stairs-wall-handrail-after-sm.jpg" alt="Carpeted stairs with a newly painted wall-mounted handrail" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-hallway-stairs-landing-window-after.jpg" data-w="900" data-h="1200"><img src="img/work-hallway-stairs-landing-window-after-sm.jpg" alt="Hall, stairs and landing painted white with fresh gloss on the banisters" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-stairwell-landing-after.jpg" data-w="900" data-h="1200"><img src="img/work-stairwell-landing-after-sm.jpg" alt="Stairwell and landing redecorated in white" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-landing-white-banister-after.jpg" data-w="900" data-h="1200"><img src="img/work-landing-white-banister-after-sm.jpg" alt="Landing with a white-painted banister and walls" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-entrance-hall-tiled-floor-after.jpg" data-w="900" data-h="1200"><img src="img/work-entrance-hall-tiled-floor-after-sm.jpg" alt="Entrance hall with freshly painted walls, skirting and door frame above a red and black tiled floor" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-hallway-white-door-after.jpg" data-w="900" data-h="1200"><img src="img/work-hallway-white-door-after-sm.jpg" alt="Hallway with a freshly painted white door, frame and walls" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-bedroom-blue-feature-wall-after.jpg" data-w="900" data-h="1200"><img src="img/work-bedroom-blue-feature-wall-after-sm.jpg" alt="Bedroom repainted in white with a blue feature wall" width="450" height="600" loading="lazy" decoding="async"></a>
+          <a class="ph" href="img/work-exterior-bay-window-after.jpg" data-w="900" data-h="1200"><img src="img/work-exterior-bay-window-after-sm.jpg" alt="Exterior of a brick house with freshly painted white bay window frames and sills" width="450" height="600" loading="lazy" decoding="async"></a>
+        </div>
+      </div>
+      <div class="g-group">
+        <h3>Work in progress</h3>
+        <p class="g-note">Bedroom walls stripped and prepared, and a stairwell set up for decorating.</p>
+        <div class="g-grid">
+          <a class="ph" href="img/work-bedroom-wallpaper-stripped-in-progress.jpg" data-w="900" data-h="1200"><img src="img/work-bedroom-wallpaper-stripped-in-progress-sm.jpg" alt="In progress: bedroom with old wallpaper stripped and the bed protected under dust sheets" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-in-progress">In progress</span></a>
+          <a class="ph" href="img/work-bedroom-walls-prepared-in-progress.jpg" data-w="900" data-h="1200"><img src="img/work-bedroom-walls-prepared-in-progress-sm.jpg" alt="In progress: bedroom walls stripped and being prepared for painting" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-in-progress">In progress</span></a>
+          <a class="ph" href="img/work-bedroom-fireplace-in-progress.jpg" data-w="900" data-h="1200"><img src="img/work-bedroom-fireplace-in-progress-sm.jpg" alt="In progress: bedroom with filled and sanded walls around a marble fireplace" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-in-progress">In progress</span></a>
+          <a class="ph" href="img/work-stairwell-ladder-in-progress.jpg" data-w="900" data-h="1200"><img src="img/work-stairwell-ladder-in-progress-sm.jpg" alt="In progress: stairwell being prepared, with a ladder and dust sheets on the stairs" width="450" height="600" loading="lazy" decoding="async"><span class="tag tag-in-progress">In progress</span></a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -393,6 +429,12 @@
     <p class="credit">Website by <a href="https://agazierobotics.com" target="_blank" rel="noopener">Agazie Robotics</a></p>
   </div>
 </footer>
+<dialog class="lightbox" id="lightbox" aria-label="Photo viewer">
+  <figure><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure>
+  <button type="button" class="lb-btn lb-close" aria-label="Close photo">&#10005;</button>
+  <button type="button" class="lb-btn lb-prev" aria-label="Previous photo">&#8592;</button>
+  <button type="button" class="lb-btn lb-next" aria-label="Next photo">&#8594;</button>
+</dialog>
 <script>
 (function(){
   document.querySelectorAll('.rev-btn').forEach(function(b){
@@ -400,7 +442,7 @@
     b.addEventListener('click',function(){var c=t.firstElementChild;var w=c?c.getBoundingClientRect().width+16:300;
       t.scrollBy({left:w*Number(b.dataset.dir),behavior:'smooth'});});
   });
-  ['reviews-track','gallery-track'].forEach(function(id){
+  ['reviews-track'].forEach(function(id){
     var t=document.getElementById(id);if(!t)return;
     var p=document.querySelectorAll('.rev-btn[data-target="'+id+'"]');
     var upd=function(){if(p.length<2)return;p[0].disabled=t.scrollLeft<=2;p[1].disabled=t.scrollLeft+t.clientWidth>=t.scrollWidth-2;};
@@ -416,6 +458,25 @@
       q.after(m);
     }
   });
+  var gb=document.getElementById('gallery-btn'),ga=document.getElementById('gallery-all');
+  if(gb&&ga){var lbl=gb.textContent;gb.addEventListener('click',function(){var o=gb.getAttribute('aria-expanded')!=='true';
+    gb.setAttribute('aria-expanded',String(o));ga.hidden=!o;gb.textContent=o?'Hide full gallery':lbl;
+    if(!o)document.getElementById('gallery').scrollIntoView({block:'start'});});}
+  var d=document.getElementById('lightbox');
+  if(d&&d.showModal){
+    var li=document.getElementById('lb-img'),lc=document.getElementById('lb-cap'),set=[],k=0,opener=null;
+    var show=function(i){k=(i+set.length)%set.length;var a=set[k],im=a.querySelector('img');li.src=a.getAttribute('href');li.alt=im.alt;
+      li.width=a.dataset.w;li.height=a.dataset.h;lc.textContent=im.alt+' ('+(k+1)+' of '+set.length+')';};
+    document.querySelectorAll('#gallery a.ph').forEach(function(a){a.addEventListener('click',function(e){e.preventDefault();opener=a;
+      set=Array.prototype.slice.call(ga.querySelectorAll('a.ph'));var h=a.getAttribute('href');
+      var i=set.findIndex(function(x){return x.getAttribute('href')===h;});show(i<0?0:i);d.showModal();});});
+    d.querySelector('.lb-close').addEventListener('click',function(){d.close();});
+    d.querySelector('.lb-prev').addEventListener('click',function(){show(k-1);});
+    d.querySelector('.lb-next').addEventListener('click',function(){show(k+1);});
+    d.addEventListener('keydown',function(e){if(e.key==='ArrowLeft')show(k-1);else if(e.key==='ArrowRight')show(k+1);});
+    d.addEventListener('click',function(e){if(e.target===d)d.close();});
+    d.addEventListener('close',function(){li.removeAttribute('src');if(opener)opener.focus();});
+  }
 })();
 </script>
 </body>
